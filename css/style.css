@@ -1,0 +1,140 @@
+:root {
+    --white-color: #FFFFFF;
+    --black-color: #000;
+}
+
+@import url('satoshi.css');
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: serif;
+    /* overflow-x: hidden; */
+}
+
+header {
+    margin-top: 0;
+    background-color: var(--black-color);
+    padding: 1px;
+    width: 100%;
+    font-size: large;
+    color: var(--white-color);
+    text-align: center;
+}
+
+header a {
+    color: var(--white-color);
+}
+
+.main-container {
+    margin: 0px 80px;
+}
+
+.nav-container {
+    margin-top: 10px;
+}
+
+.nav-container>h1 {
+    display: inline;
+    font-size: 32px;
+    font-weight: 900;
+    position: relative;
+
+}
+
+.nav-sub-container {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+}
+
+.nav-sub-container a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+.nav-sub-container>input {
+    width: 500px;
+    height: 50px;
+    border-radius: 62px;
+    border: none;
+    background-color: #F0F0F0;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.nav-sub-container>.search-icon {
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+.nav-sub-container>input::placeholder {
+    position: absolute;
+    left: 50px;
+}
+
+.nav-sub-container .nav-icon-section {
+    display: inline;
+    margin-left: 15px;
+}
+
+.nav-icon-section {
+    padding: 10px;
+}
+
+.nav-icon-section img {
+    padding: 0px 10px;
+}
+
+.teaser {
+    margin-top: 15px;
+    position: relative;
+}
+
+.teaser-background-image img {
+    width: 100%;
+    /* z-index: -1; */
+}
+
+.teaser .top-right {
+    position: absolute;
+    top: 110px;
+    right: 80px;
+    width: 70px;
+    height: 70px;
+}
+
+.teaser .bottom-left {
+    position: absolute;
+    top: 275px;
+    right: 550px;
+    width: 50px;
+    height: 50px;
+}
+
+.teaser .teaser-sub-container {
+    position: absolute;
+    top: 50px;
+}
+
+.teaser-sub-container .teaser-heading {
+    font-size: large;
+}
+
+.brand {
+    background-color: #000;
+    width: 100%;
+}
+
+.brand .brand-container {
+    padding: 20px 0px;
+}
+
+.brand .brand-container>img {
+    margin-right: 50px;
+}
+
