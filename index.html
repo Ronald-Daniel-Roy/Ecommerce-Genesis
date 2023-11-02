@@ -1,14 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <h1>
-        Ecommerce site
-    </h1>
-    
+    <header>
+        <p>Sign up and get 20% off to your first order. <a href="#">Sign Up Now</a></p>
+    </header>
+
+    <nav>
+        <div class="main-container">
+            <div class="nav-container">
+                <h1>SHOP.CO</h1>
+                <div class="nav-sub-container">
+                    <a href="">Shop<img src="/assets/icons/navigation/down-arrow.png" alt=""></a>
+                    <a href="">On Sale</a>
+                    <a href="">New Arrivals</a>
+                    <a href="">Brands</a>
+                    <img src="/assets/icons/navigation/Frame.png" alt="cart" class="search-icon">
+                    <input type="text" placeholder="Search for products...">
+                    <div class="nav-icon-section">
+                        <img src="/assets/icons/navigation/cart.png" alt="cart">
+                        <img src="/assets/icons/navigation/profile.png" alt="profile">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </nav>
+
+    <section class="teaser">
+        <div class="teaser-background-image">
+            <img src="/assets/images/teaser/teaser-image.png" alt="">
+        </div>
+        <img class="top-right" src="/assets/icons/teaser/star.png" alt="">
+        <img class="bottom-left" src="/assets/icons/teaser/star.png" alt="">
+
+        <div class="teaser-sub-container main-container">
+            <p class="teaser-heading">FIND CLOTHES THAT MATCHES YOUR STYLE</p>
+            <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your
+                individuality
+                and cater to your sense of style.</p>
+            <input type="button" value="Shop Now">
+            <ul>
+                <li><span>200+</span> <span>International Brands</span></li>
+                <li><span>2,000+</span> <span>High-Quality Products</span></li>
+                <li><span>30,000+</span> <span>Happy Customers</span></li>
+            </ul>
+
+        </div>
+
+
+    </section>
+
+    <section class="brand">
+        <div class="main-container brand-container">
+            <img src="/assets/images/brand/versace.png" alt="">
+            <img src="/assets/images/brand/zara-logo-1 1.png" alt="">
+            <img src="/assets/images/brand/gucci-logo-1 1.png" alt="">
+            <img src="/assets/images/brand/prada-logo-1 1.png" alt="">
+            <img src="/assets/images/brand/calvin.png" alt="">
+        </div>
+    </section>
+
+    <!--
+    <section class="new-arrivals">
+        <div class="new-arrivals-card">
+            <img src="/assets/images/new-arrivals/black-tshirt.png" alt="">
+            <p class="product-info">T-SHIRT WITH TAPE DETAILS</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/half-star.png" alt="">
+                </span> <span class="number-rating">4.5/5</span></p>
+            <p class="price">$120</p>
+        </div>
+
+        <div class="new-arrivals-card">
+            <img src="/assets/images/new-arrivals/blue-jeans.png" alt="">
+            <p class="product-info">SKINNY FIT JEANS</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/half-star.png" alt="">
+                </span> <span class="number-rating">3.5/5</span></p>
+            <p class="price">$240</p>
+            <p class="price-hidden">$260</p><span class="reduction-percentage">-20%</span>
+        </div>
+
+        <div class="new-arrivals-card">
+            <img src="/assets/images/new-arrivals/striped-shirt.png" alt="">
+            <p class="product-info">CHECKERED SHIRT</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/half-star.png" alt="">
+                </span> <span class="number-rating">4.5/5</span></p>
+            <p class="price">$180</p>
+        </div>
+
+        <div class="new-arrivals-card">
+            <img src="/assets/images/new-arrivals/tshirt-orange.png" alt="">
+            <p class="product-info">SLEEVE STRIPED T-SHIRT</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/half-star.png" alt="">
+                </span> <span class="number-rating">4.5/5</span></p>
+            <p class="price">$130</p>
+            <p class="price-hidden">$160</p><span class="reduction-percentage">-30%</span>
+        </div>
+        <input type="button" value="View All">
+    </section>
+
+    <section class="top-selling">
+        <div class="top-selling-card">
+            <img src="/assets/images/top-selling/vertcal-striped-shirt.png" alt="">
+            <p class="product-info">T-SHIRT WITH TAPE DETAILS</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                </span> <span class="number-rating">5.0/5</span></p>
+            <p class="price">$212</p>
+            <p class="price-hidden">$232</p><span class="reduction-percentage">-20%</span>
+        </div>
+
+        <div class="top-selling-card">
+            <img src="/assets/images/top-selling/courage-graphic-tshirt.png" alt="">
+            <p class="product-info">SKINNY FIT JEANS</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                </span> <span class="number-rating">4.0/5</span></p>
+            <p class="price">$145</p>
+
+        </div>
+
+        <div class="top-selling-card">
+            <img src="/assets/images/top-selling/loose-fit-bermuda.png" alt="">
+            <p class="product-info">CHECKERED SHIRT</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                </span> <span class="number-rating">3.0/5</span></p>
+            <p class="price">$80</p>
+        </div>
+
+        <div class="top-selling-card">
+            <img src="/assets/images/top-selling/faded-skinny-jeans.png" alt="">
+            <p class="product-info">SLEEVE STRIPED T-SHIRT</p>
+            <p class="rating"> <span class="star-rating">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                    <img src="/assets/icons/new-arrivals/half-star.png" alt="">
+                </span> <span class="number-rating">4.5/5</span></p>
+            <p class="price">$210</p>
+
+        </div>
+        <input type="button" value="View All">
+    </section>
+
+    <section class="dress-style-section">
+        <div class="dress-style-section-container">
+            <h1>BROWSE BY dress STYLE</h1>
+            <div class="dress-style-section-card">
+                <img src="/assets/images/dress-style/casual.png" alt="">
+                <p>Casual</p>
+
+            </div>
+            <div class="dress-style-section-card">
+                <img src="/assets/images/dress-style/formal.png" alt="">
+                <p>Formal</p>
+
+            </div>
+            <div class="dress-style-section-card">
+                <img src="/assets/images/dress-style/party.png" alt="">
+                <p>Party</p>
+
+            </div>
+            <div class="dress-style-section-card">
+                <img src="/assets/images/dress-style/gym.png" alt="">
+                <p>Gym</p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="review-section">
+        <div class="review-section-card">
+            <div class="customer-review-rating">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+            </div>
+
+            <div class="customer-details">Sarah M. <span><img src="" alt=""></span></div>
+            <p class="customer-review-description">"I'm blown away by the quality and style of the clothes I received
+                from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my
+                expectations.”</p>
+
+
+        </div>
+
+        <div class="review-section-card">
+            <div class="customer-review-rating">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+            </div>
+
+            <div class="customer-details">Alex K. <span><img src="" alt=""></span></div>
+            <p class="customer-review-description">"Finding clothes that align with my personal style used to be a
+                challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a
+                variety of tastes and occasions.”</p>
+
+
+        </div>
+
+        <div class="review-section-card">
+            <div class="customer-review-rating">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+                <img src="/assets/icons/new-arrivals/Star.png" alt="">
+            </div>
+
+            <div class="customer-details">James L.<span><img src="" alt=""></span></div>
+            <p class="customer-review-description">"As someone who's always on the lookout for unique fashion pieces,
+                I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also
+                on-point with the latest trends.””</p>
+
+
+        </div>
+    </section>
+
+    <section class="subscribe">
+
+        <div class="subscribe-container">
+            <h1 class="subscribe-heading">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+            <div class="subscribe-input">
+                <input type="text" name="" id="" placeholder="Enter your email address">
+                <button>Subscribe to Newsletter</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-section">
+
+            <div class="footer-upper-section">
+                <table>
+                    <tr>
+                        <th>SHOP.CO</th>
+                        <th>Company</th>
+                        <th>Help</th>
+                        <th>FAQ</th>
+                        <th>Resources</th>
+
+                    </tr>
+                    <tr>
+                        <td>We have clothes that suits your style and which you’re proud to wear. From women to men.
+                        </td>
+                        <td>
+                            <div class="social-icons">
+                                <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>About</td>
+                        <td>Customer Support</td>
+                        <td>Account</td>
+
+                        
+                        <td>Works</td>
+                        <td>Career</td>
+                    </tr>
+
+                    <tr>
+                        <td>Features</td>
+                        <td>Delivery Details</td>
+                        <td>Terms & Conditions</td>
+                        <td>Privacy Policy</td>
+                    </tr>
+
+                    <tr>
+                        
+                        <td>Manage Deliveries</td>
+                        <td>Orders</td>
+                        <td>Payments</td>
+                    </tr>
+
+                    tr
+                </table>
+
+            </div>
+
+            <hr>
+            <div class="copyright-section">
+                <p>Shop.co © 2000-2023, All Rights Reserved</p>
+            </div>
+            <div class="payment-providers">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <section class="top-selling"></section>
+
+    -->
+
 </body>
+
 </html>
