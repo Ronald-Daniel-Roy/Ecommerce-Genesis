@@ -3,13 +3,11 @@
     --black-color: #000;
 }
 
-@import url('satoshi.css');
-
 body {
     background-color: #FFFFFF;
     margin: 0;
     font-family: serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 header {
@@ -208,4 +206,77 @@ header a {
 
 .price-hidden {
     text-decoration: line-through;
+}
+
+.dress-style-section-container {
+    background-color: #F0F0F0;
+}
+
+.dress-style-section-card {
+    display: inline; 
+    position: relative;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.dress-style-section-card > p{
+    display: inline;
+    font-size: 35px;
+    font-weight: 900;
+   
+}
+
+.dress-style-section-card-2 > p{
+    position: absolute;
+    right: 500px;
+   
+
+}
+
+.review-section > .section-heading{
+    text-align: left;
+    font-size: 40px;
+}
+
+.review-section-card-container{
+    display: flex;
+}
+
+.review-section-card{
+    border: 1px solid ;
+    border-color: #c8c8c8;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.subscribe-section{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 25px;
+    height: 100px;
+}
+
+.subscribe-section  .subscribe-heading{
+    width: 250px;
+    font-size: large;
+    position: relative;
+    left: 20px;
+    display: inline-block;
+}
+
+
+.subscribe-section  .subscribe-input{
+    border: 1px solid white;
+  display: inline;
+  position: absolute;
+  right: 110px;
+  top: 40px;
+}
+
+.subscribe-input > *{
+    display: block;
 }
