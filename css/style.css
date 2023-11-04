@@ -1,6 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 :root {
     --white-color: #FFFFFF;
     --black-color: #000;
+    --grey-background-color: #F0F0F0;
 }
 
 body {
@@ -213,70 +219,91 @@ header a {
 }
 
 .dress-style-section-card {
-    display: inline; 
+    display: inline;
     position: relative;
     margin-right: 15px;
     border-radius: 50px;
 }
 
-.dress-style-section-card > p{
+.dress-style-section-card>p {
     display: inline;
     font-size: 35px;
     font-weight: 900;
-   
+
 }
 
-.dress-style-section-card-2 > p{
+.dress-style-section-card-2>p {
     position: absolute;
     right: 500px;
-   
+
 
 }
 
-.review-section > .section-heading{
+.review-section>.section-heading {
     text-align: left;
     font-size: 40px;
 }
 
-.review-section-card-container{
+.review-section-card-container {
     display: flex;
 }
 
-.review-section-card{
-    border: 1px solid ;
+.review-section-card {
+    border: 1px solid;
     border-color: #c8c8c8;
     margin-right: 15px;
     border-radius: 20px;
     padding: 20px;
 }
 
-.subscribe-section{
+.subscribe-section {
     background-color: var(--black-color);
     color: var(--white-color);
-    padding: 20px;
-    position: relative;
-    margin-top: 50px;
+    position: absolute;
     border-radius: 25px;
-    height: 100px;
+    bottom: 265px;
+    width: 90%;
+    left: 5%;
 }
 
-.subscribe-section  .subscribe-heading{
-    width: 250px;
-    font-size: large;
+.subscribe-section .subscribe-heading {
+    width: 490px;
+    font-size: 35px;
     position: relative;
-    left: 20px;
-    display: inline-block;
+    left: 40px;
+    font-weight: 900;
+
 }
 
 
-.subscribe-section  .subscribe-input{
-    border: 1px solid white;
-  display: inline;
-  position: absolute;
-  right: 110px;
-  top: 40px;
+.subscribe-section .subscribe-input {
+    position: absolute;
+    right: 110px;
+    top: 40px;
+    width: 300px;
 }
 
-.subscribe-input > *{
-    display: block;
+.subscribe-input>* {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.subscribe-input>input::placeholder {
+    position: relative;
+    left: 45px;
+}
+
+.subscribe-input>button {
+    height: 35px;
+    width: 260px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: var(--grey-background-color);
+    padding-top: 150px;
+    margin-top: 150px;
 }
