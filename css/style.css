@@ -261,7 +261,7 @@ header a {
     color: var(--white-color);
     position: absolute;
     border-radius: 25px;
-    bottom: 265px;
+    bottom: 340px;
     width: 90%;
     left: 5%;
 }
@@ -306,4 +306,40 @@ footer {
     background-color: var(--grey-background-color);
     padding-top: 150px;
     margin-top: 150px;
+}
+
+.footer-section {
+    position: relative;
+    bottom: 20px;
+
+}
+
+.footer-table th {
+    text-align: left;
+}
+
+.footer-table tr td {}
+
+.footer-table :nth-child(2) :nth-child(1) {
+    word-wrap: break-word;
+    width: 250px
+}
+
+table tr td:nth-child(n+1),
+th:nth-child(n+1) {
+    padding-left: 0px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+
+
+.copyright-section {
+    display: inline-block;
+    width: fit-content;
+}
+
+.payment-providers {
+    float: right;
+    display: inline;
 }
