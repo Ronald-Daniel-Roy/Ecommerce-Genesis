@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 :root {
     --white-color: #FFFFFF;
     --black-color: #000;
@@ -101,7 +100,6 @@ header a {
 
 .teaser-background-image img {
     width: 100%;
-    /* z-index: -1; */
 }
 
 .teaser .top-right {
@@ -121,12 +119,50 @@ header a {
 }
 
 .teaser .teaser-sub-container {
+    width: 400px;
     position: absolute;
-    top: 50px;
+    top: 60px;
 }
 
 .teaser-sub-container .teaser-heading {
-    font-size: large;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.teaser-description {
+    position: relative;
+    top: -25px;
+    font-size: 13px;
+}
+
+.teaser-button {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    width: 200px;
+    height: 50px;
+    margin-left: 75px;
+    border-radius: 40px;
+}
+
+.teaser-list {
+    list-style-type: none;
+    width: 100%;
+
+}
+
+.teaser-list-item>.count {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.teaser-list-item {
+    width: 95px;
+    display: inline;
+}
+
+.teaser-list-item>.grey-text {
+    display: block;
+    width: 150px;
 }
 
 .brand {
@@ -143,9 +179,9 @@ header a {
 }
 
 
-
-
-
+.new-arrivals {
+    margin-top: 30px;
+}
 
 .section-heading {
     text-align: center;
@@ -155,6 +191,7 @@ header a {
 
 .card-container {
     display: flex;
+    margin-top: 30px;
 }
 
 .card {
@@ -214,11 +251,24 @@ header a {
     text-decoration: line-through;
 }
 
+
+
+.top-selling {
+    margin-top: 40px;
+}
+
+.dress-style-section {
+    margin-top: 65px;
+}
+
 .dress-style-section-container {
+    padding: 20px;
     background-color: #F0F0F0;
+    border-radius: 30px;
 }
 
 .dress-style-section-card {
+    border: 1px solid red;
     display: inline;
     position: relative;
     margin-right: 15px;
@@ -226,7 +276,6 @@ header a {
 }
 
 .dress-style-section-card>p {
-    display: inline;
     font-size: 35px;
     font-weight: 900;
 
@@ -235,25 +284,54 @@ header a {
 .dress-style-section-card-2>p {
     position: absolute;
     right: 500px;
+}
 
 
+
+
+
+
+.review-section {
+    margin-top: 45px;
 }
 
 .review-section>.section-heading {
     text-align: left;
     font-size: 40px;
+
+}
+
+.section-heading>p {
+    display: inline;
 }
 
 .review-section-card-container {
     display: flex;
+    margin-top: 30px;
 }
 
 .review-section-card {
     border: 1px solid;
     border-color: #c8c8c8;
-    margin-right: 15px;
+    margin-right: 25px;
     border-radius: 20px;
     padding: 20px;
+}
+
+.review-section-controls {
+    display: inline;
+    float: right;
+}
+
+.customer-details {
+    margin-top: 8px;
+}
+
+.green-verified-tick {
+    position: relative;
+    top: 8px;
+    left: 4px;
+
 }
 
 .subscribe-section {
@@ -322,7 +400,8 @@ footer {
 
 .footer-table :nth-child(2) :nth-child(1) {
     word-wrap: break-word;
-    width: 250px
+    width: 250px;
+    padding-top: 20px;
 }
 
 table tr td:nth-child(n+1),
@@ -342,4 +421,13 @@ th:nth-child(n+1) {
 .payment-providers {
     float: right;
     display: inline;
+}
+
+.grey-text {
+    color: rgba(0, 0, 0, 0.60);
+
+}
+
+.bold-text {
+    font-weight: 800;
 }
